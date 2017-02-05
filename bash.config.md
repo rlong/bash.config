@@ -6,5 +6,20 @@ setup
 cd ~
 git clone https://github.com/rlong/bash.config
 mv bash.config .bash.d
-ln -s .bash.d/profile .profile
+```
+
+setup: osx
+----------
+
+```
+ln -s .bash.d/bashrc .bashrc
+ln -s .bash.d/bash_profile .bash_profile
+```
+
+setup: linux (fedora)
+---------------------
+
+```
+rm .bashrc
+ln -s .bash.d/bashrc .bashrc
 ```
