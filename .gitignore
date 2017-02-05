@@ -1,0 +1,12 @@
+
+# OSX Desktop Services Store
+.DS_Store
+
+# emacs auxiliary filenames
+*~
+\#*
+.#*
+
+# vi auxiliary filenames
+*.swp
+
