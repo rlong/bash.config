@@ -20,6 +20,6 @@ setup: linux (fedora)
 ---------------------
 
 ```
-rm .bashrc
+mv .bashrc .bashrc.original
 ln -s .bash.d/bashrc .bashrc
 ```
