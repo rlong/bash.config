@@ -1,6 +1,6 @@
 
 
-echo "hello from '.bash.d/bashrc'"
+# echo "hello from '.bash.d/bashrc'"
 
 
 alias ls='ls -Fs'
