@@ -8,8 +8,8 @@ git clone https://github.com/rlong/bash.config
 mv bash.config .bash.d
 ```
 
-setup: osx
-----------
+setup: osx and windows
+----------------------
 
 ```
 ln -s .bash.d/bashrc .bashrc
