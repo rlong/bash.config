@@ -6,6 +6,9 @@ alias ls='ls -Fs'
 export PATH=$PATH:~/bin
 unset HISTFILE
 
+# http://bashrcgenerator.com/
+export PS1="┌─ \w\n└─ \u@\h \\$\[$(tput sgr0)\]"
+
 
 
 ##########################################################
