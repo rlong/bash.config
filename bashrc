@@ -7,7 +7,8 @@ export PATH=$PATH:~/bin
 unset HISTFILE
 
 # http://bashrcgenerator.com/
-export PS1="┌─ \w\n└─ \u@\h \\$\[$(tput sgr0)\]"
+#export PS1="┌─ \w\n└─ \u@\h \\$\[$(tput sgr0)\]"
+export PS1="\u@\h/\W \$"
 
 
 
