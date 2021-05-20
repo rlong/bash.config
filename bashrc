@@ -6,11 +6,6 @@ alias ls='ls -Fs'
 export PATH=$PATH:~/bin
 unset HISTFILE
 
-# http://bashrcgenerator.com/
-#export PS1="┌─ \w\n└─ \u@\h \\$\[$(tput sgr0)\]"
-export PS1_="\u@\h/\W \$"
-export PS1="\e[1;37m\u@\h/\W $\e[m"
-
 
 
 
@@ -32,4 +27,11 @@ fi
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
+
+
+# http://bashrcgenerator.com/
+#export PS1="┌─ \w\n└─ \u@\h \\$\[$(tput sgr0)\]"
+export PS1_="\u@\h/\W \$"
+export PS1="\e[1;37m\u@\h/\W $\e[m"
+
 
