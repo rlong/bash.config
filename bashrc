@@ -29,9 +29,9 @@ if [ -f /etc/bashrc ]; then
 fi
 
 
-# http://bashrcgenerator.com/
-#export PS1="┌─ \w\n└─ \u@\h \\$\[$(tput sgr0)\]"
-export PS1_="\u@\h/\W \$"
-export PS1="\e[1;37m\u@\h/\W $\e[m"
+# export PS1_="\u@\h/\W \$"
+# derived from: https://superuser.com/questions/382456/why-does-this-bash-prompt-sometimes-keep-part-of-previous-commands-when-scrollin
+export PS1="\[\e[1;37m\]\u@\h/\W/ \$\[\e[0m\]"
+
 
 
