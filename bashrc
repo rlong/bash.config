@@ -28,6 +28,10 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+if [ -f /usr/bin/xdg-open ]; then
+	alias open='xdg-open'
+fi
+
 
 # export PS1_="\u@\h/\W \$"
 # derived from: https://superuser.com/questions/382456/why-does-this-bash-prompt-sometimes-keep-part-of-previous-commands-when-scrollin
